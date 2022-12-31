@@ -10,13 +10,21 @@ My project allows users to search for recipes. They may search by categories of 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Components include the cuisines available (Category), Trending and Vegetarian Recipes, the search bar. Clicking on these will bring up recipes from which to select. Clicking on a recipe will bring up that particular recipe page.
+Components include Category. This components has three links that bring the user to a specific cuisine.
+
+The Popular component provides a carousel which the user can use to scroll through popular recipes.
+
+The Vegetarian component provides a carousel which the user can use to scroll through vegetarian recipes.
+
+The Search component allows a user to type in a specific item, such as pie, to search for recipes in that category.
+
+Clicking on a recipe will bring up that particular recipe page.
 
 Within the recipe page, a user can access the instructions and the ingredients.
 
 BrowswerRouter is used within App.js for routing. It enables navigation between views from different components, allows the browser URL to be changed, and keeps the UI in sync with the URL.
 
-The ReactJS useNavigate() Hook is used within the search function to go to the specific URL generated using the input from the user for the search.
+The ReactJS useNavigate() Hook is used within the search function to go to the specific URL generated using the input from the user from the Search Bar.
 
 The Link component renders a component that can navigate to a screen on press. It has a built-in function to assign what is clicked to a class of active.
 
@@ -47,8 +55,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-# project
-
-# project
-# project
