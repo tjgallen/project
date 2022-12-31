@@ -4,6 +4,8 @@
 
 ## Video Demo: https://youtu.be/Og4hZCW1iZE
 
+## https://github.com/tjgallen/project.git
+
 ## Description
 
 My project allows users to search for recipes. They may search by categories of trending or vegetarian. There are also cuisines from which to select, including Italian, Mediterranean, and Thai. It includes a search bar so users can search for specific items or ingredients.
